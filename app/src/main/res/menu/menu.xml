@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id = "@+id/itemAdaugaMasina"
+            android:icon ="@drawable/ic_baseline_add_car"
+            android:title="Adauga Masina"
+            />
+        <item
+            android:id = "@+id/itemSelecteazaMasina"
+            android:icon = "@drawable/ic_baseline_search_24"
+            android:title = "Selecteaza Masina"/>
+        <item
+            android:id="@+id/itemDetaliiMasina"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="Detalii Masina Mea"
+            />
+        <item
+            android:id="@+id/itemProgramarileMele"
+            android:icon="@drawable/ic_baseline_book_online_24"
+            android:title="Programarile Mele"
+            />
+
+
+        <item
+            android:icon="@drawable/ic_baseline_login_24"
+            android:id="@+id/itemLogOut"
+            android:title="Log Out"
+            />
+    </group>
+</menu>
